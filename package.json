@@ -8,15 +8,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Md-Irfan-FullStackDeveloper/test_api.git"
+    "url": "git+https://github.com/Sagar1079/json-server.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Md-Irfan-FullStackDeveloper/test_api/issues"
+    "url": "https://github.com/Sagar1079/json-server/issues"
   },
-  "homepage": "https://github.com/Md-Irfan-FullStackDeveloper/test_api#readme",
+  "homepage": "https://github.com/Sagar1079/json-server#readme",
   "dependencies": {
     "cors": "^2.8.5",
     "json-serve": "^0.1.0",
