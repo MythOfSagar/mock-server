@@ -10,6 +10,17 @@
         "publisher": "Bloomsbury",
         "cost": 1299,
         "borrowed": false
+      },
+        {
+        "id": 2,
+        "image_url": "https://m.media-amazon.com/images/I/5165He67NEL.jpg",
+        "book_name": "Three Decades in 20yrs",
+        "author": "Shah Rukh Khan",
+        "genre": "bio",
+        "edition": "2050",
+        "publisher": "Red Chillies",
+        "cost": 700,
+        "borrowed": true
       }
     ]
   }
