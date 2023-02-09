@@ -1,25 +1,86 @@
 {
-    "books": [
+    "books":[
       {
         "id": 1,
         "image_url": "https://m.media-amazon.com/images/I/5165He67NEL.jpg",
         "book_name": "Harry Potter and the Philosopher's Stone",
         "author": "J. K. Rowling",
-        "genre": "fiction",
+        "genre": "Science",
         "edition": "2021",
         "publisher": "Bloomsbury",
-        "cost": 1299,
+        "cost": 150,
         "borrowed": false
       },
-        {
+      {
         "id": 2,
-        "image_url": "https://m.media-amazon.com/images/I/5165He67NEL.jpg",
-        "book_name": "Three Decades in 20yrs",
-        "author": "Shah Rukh Khan",
-        "genre": "bio",
-        "edition": "2050",
-        "publisher": "Red Chillies",
+        "image_url": "https://img.thriftbooks.com/api/images/i/s/8230B7DF53F7E379338B83B16EBB232BDA300299.jpg",
+        "book_name": "Harry Potter and the Philosopher's Stone",
+        "author": "J. K. Rowling",
+        "genre": "Fiction",
+        "edition": "2021",
+        "publisher": "Bloomsbury",
+        "cost": 1500,
+        "borrowed": false
+      },
+      {
+        "id": 3,
+        "image_url": "https://img.thriftbooks.com/api/images/i/s/E955834AEA8D416FA653C8B98AE0731E46B8C977.jpg",
+        "book_name": "Harry Potter and the Philosopher's Stone",
+        "author": "J. K. Rowling",
+        "genre": "Science",
+        "edition": "2021",
+        "publisher": "Bloomsbury",
+        "cost": 400,
+        "borrowed": false
+      },{
+        "id": 4,
+        "image_url": "https://img.thriftbooks.com/api/images/s/965be66545a2715533a71b9125d502e66d867428.jpg",
+        "book_name": "Harry Potter and the Philosopher's Stone",
+        "author": "J. K. Rowling",
+        "genre": "Fiction",
+        "edition": "2021",
+        "publisher": "Bloomsbury",
         "cost": 700,
+        "borrowed": true
+      },{
+        "id": 5,
+        "image_url": "https://img.thriftbooks.com/api/images/s/cc0d9ff33141d336c5119fc4698b103b311921d6.jpg",
+        "book_name": "Harry Potter and the Philosopher's Stone",
+        "author": "J. K. Rowling",
+        "genre": "History",
+        "edition": "2021",
+        "publisher": "Bloomsbury",
+        "cost": 129,
+        "borrowed": true
+      },{
+        "id": 6,
+        "image_url": "https://m.media-amazon.com/images/I/51b3ESsYwXL._SL200_.jpg",
+        "book_name": "Harry Potter and the Philosopher's Stone",
+        "author": "J. K. Rowling",
+        "genre": "Tech",
+        "edition": "2021",
+        "publisher": "Bloomsbury",
+        "cost": 12,
+        "borrowed": false
+      },{
+        "id": 7,
+        "image_url": "https://img.thriftbooks.com/api/images/s/0bd22ea6b27000893b59d5daeae8a64525e58fe2.jpg",
+        "book_name": "Harry Potter and the Philosopher's Stone",
+        "author": "J. K. Rowling",
+        "genre": "History",
+        "edition": "2021",
+        "publisher": "Bloomsbury",
+        "cost": 991,
+        "borrowed": false
+      },{
+        "id": 8,
+        "image_url": "https://img.thriftbooks.com/api/images/i/s/15D911226CCC8CB7D1A8A106E4856D87509C27C5.jpg",
+        "book_name": "Harry Potter and the Philosopher's Stone",
+        "author": "J. K. Rowling",
+        "genre": "Business",
+        "edition": "2021",
+        "publisher": "Bloomsbury",
+        "cost": 7565,
         "borrowed": true
       }
     ]
