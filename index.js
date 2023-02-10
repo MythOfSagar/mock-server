@@ -6,8 +6,14 @@ const cors = require("cors");
 
 const port = process.env.PORT || 3001; // you can use any port number here; i chose to use 3001
 
-server.use(cors());
+
 server.use(middlewares);
+
+server.use((req, res, next) => {
+  res.header('Access-Control-Allow-Origin', 'https://serene-paprenjak-e66413.netlify.app')
+  res.header('Access-Control-Allow-Headers', '*')
+  next()
+})
 
 
 server.use(router);
