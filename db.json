@@ -7,7 +7,7 @@
         "email": "cor@gmail.com",
         "password": "cor@123"
   }],
-    blogs:[
+    'blogs':[
   {
 		"id" : 1
     "username": "coreyschafer",
@@ -16,7 +16,7 @@
 		"category" : "Entertainment",
 		"date" : "2017-06-01",
 		"likes" : 24,
-		"comments" : [{username : "Jane", content : "Good One"}, {username : "Bob", content : "Loved It!"}]
+		"comments" : [{'username' : "Jane", 'content' : "Good One"}, {'username' : "Bob", 'content' : "Loved It!"}]
   }
 ],
     "books":[
