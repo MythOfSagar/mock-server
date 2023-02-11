@@ -1,122 +1,244 @@
 {
-  "users": [
-    {
-      "id": 1,
-      "username": "coreyschafer",
-      "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-8dWcUUTlKThUJ3pmC9C_9oJeFHz1ROb2muQL0pdMuA&s",
-      "email": "cor@gmail.com",
-      "password": "cor@123"
-    }
-  ],
-  "blogs": [
-    {
-      "id": 1,
-      "username": "coreyschafer",
-      "title": "Be Present",
-      "content": "Turning that vs warm rayed it should be the hour for their mid-day sleep.",
-      "category": "Entertainment",
-      "date": "2017-06-01",
-      "likes": 24,
-      "comments": [
-        {
-          "username": "Jane",
-          "content": "Good One"
-        },
-        {
-          "username": "Bob",
-          "content": "Loved It!"
-        }
-      ]
-    }
-  ],
-  "books": [
-    {
-      "id": 1,
-      "image_url": "https://img.etimg.com/thumb/msid-94359940,width-300,height-225,imgsize-70676,,resizemode-75/taste-the-t-hunder.jpg",
-      "book_name": "Harry Potter and the Philosopher's Stone",
-      "author": "J. K. Rowling",
-      "genre": "Science",
-      "edition": "2021",
-      "publisher": "Bloomsbury",
-      "cost": 150,
-      "borrowed": false
-    },
-    {
-      "id": 2,
-      "image_url": "https://img.thriftbooks.com/api/images/i/s/8230B7DF53F7E379338B83B16EBB232BDA300299.jpg",
-      "book_name": "Harry Potter and the Philosopher's Stone",
-      "author": "J. K. Rowling",
-      "genre": "Fiction",
-      "edition": "2021",
-      "publisher": "Bloomsbury",
-      "cost": 1500,
-      "borrowed": false
-    },
-    {
-      "id": 3,
-      "image_url": "https://img.thriftbooks.com/api/images/i/s/E955834AEA8D416FA653C8B98AE0731E46B8C977.jpg",
-      "book_name": "Harry Potter and the Philosopher's Stone",
-      "author": "J. K. Rowling",
-      "genre": "Science",
-      "edition": "2021",
-      "publisher": "Bloomsbury",
-      "cost": 400,
-      "borrowed": false
-    },
-    {
-      "id": 4,
-      "image_url": "https://img.thriftbooks.com/api/images/s/965be66545a2715533a71b9125d502e66d867428.jpg",
-      "book_name": "Harry Potter and the Philosopher's Stone",
-      "author": "J. K. Rowling",
-      "genre": "Fiction",
-      "edition": "2021",
-      "publisher": "Bloomsbury",
-      "cost": 700,
-      "borrowed": true
-    },
-    {
-      "id": 5,
-      "image_url": "https://img.thriftbooks.com/api/images/s/cc0d9ff33141d336c5119fc4698b103b311921d6.jpg",
-      "book_name": "Harry Potter and the Philosopher's Stone",
-      "author": "J. K. Rowling",
-      "genre": "History",
-      "edition": "2021",
-      "publisher": "Bloomsbury",
-      "cost": 129,
-      "borrowed": true
-    },
-    {
-      "id": 6,
-      "image_url": "https://m.media-amazon.com/images/I/51b3ESsYwXL._SL200_.jpg",
-      "book_name": "Harry Potter and the Philosopher's Stone",
-      "author": "J. K. Rowling",
-      "genre": "Tech",
-      "edition": "2021",
-      "publisher": "Bloomsbury",
-      "cost": 12,
-      "borrowed": false
-    },
-    {
-      "id": 7,
-      "image_url": "https://img.thriftbooks.com/api/images/s/0bd22ea6b27000893b59d5daeae8a64525e58fe2.jpg",
-      "book_name": "Harry Potter and the Philosopher's Stone",
-      "author": "J. K. Rowling",
-      "genre": "History",
-      "edition": "2021",
-      "publisher": "Bloomsbury",
-      "cost": 991,
-      "borrowed": false
-    },
-    {
-      "id": 8,
-      "image_url": "https://img.thriftbooks.com/api/images/i/s/15D911226CCC8CB7D1A8A106E4856D87509C27C5.jpg",
-      "book_name": "Harry Potter and the Philosopher's Stone",
-      "author": "J. K. Rowling",
-      "genre": "Business",
-      "edition": "2021",
-      "publisher": "Bloomsbury",
-      "cost": 7565,
-      "borrowed": true
-    }
-  ]
-}
+    "users": [
+      {
+        "id": 1,
+        "username": "coreyschafer",
+        "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-8dWcUUTlKThUJ3pmC9C_9oJeFHz1ROb2muQL0pdMuA&s",
+        "email": "cor@gmail.com",
+        "password": "cor@123"
+      }
+      ,
+      {
+        "id": 2,
+        "username": "nobita",
+        "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-8dWcUUTlKThUJ3pmC9C_9oJeFHz1ROb2muQL0pdMuA&s",
+        "email": "nobita@gmail.com",
+        "password": "nobita@123"
+      }
+    ],
+    "blogs": [
+      {
+        "id": 1,
+        "username": "coreyschafer",
+        "title": "Be Present",
+        "content": "Turning that vs warm rayed it should be the hour for their mid-day sleep.",
+        "category": "Entertainment",
+        "date": 20170622,
+        "likes": 24,
+        "comments": [
+          {
+            "username": "Jane",
+            "content": "Good One"
+          },
+          {
+            "username": "Bob",
+            "content": "Loved It!"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "username": "nobita",
+        "title": "Be Present",
+        "content": "Turning that vs warm rayed it should be the hour for their mid-day sleep.",
+        "category": "Business",
+        "date": 20170422,
+        "likes": 24,
+        "comments": [
+          {
+            "username": "Jane",
+            "content": "Good One"
+          },
+          {
+            "username": "Bob",
+            "content": "Loved It!"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "username": "nobita",
+        "title": "Be Present",
+        "content": "Turning that vs warm rayed it should be the hour for their mid-day sleep.",
+        "category": "Tech",
+        "date": 20190423,
+        "likes": 24,
+        "comments": [
+          {
+            "username": "Jane",
+            "content": "Good One"
+          },
+          {
+            "username": "Bob",
+            "content": "Loved It!"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "username": "coreyschafer",
+        "title": "Be Present",
+        "content": "Turning that vs warm rayed it should be the hour for their mid-day sleep.",
+        "category": "Business",
+        "date": 20190913,
+        "likes": 24,
+        "comments": [
+          {
+            "username": "Jane",
+            "content": "Good One"
+          },
+          {
+            "username": "Bob",
+            "content": "Loved It!"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "username": "coreyschafer",
+        "title": "Be Absent",
+        "content": "Turning that vs warm rayed it should be the hour for their mid-day sleep.",
+        "category": "Lifestyle",
+        "date": 20140913,
+        "likes": 24,
+        "comments": [
+          {
+            "username": "Jane",
+            "content": "Good One"
+          },
+          {
+            "username": "Bob",
+            "content": "Loved It!"
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "username": "nobita",
+        "title": "Be Present",
+        "content": "Turning that vs warm rayed it should be the hour for their mid-day sleep.",
+        "category": "Tech",
+        "date": 20140911,
+        "likes": 24,
+        "comments": [
+          {
+            "username": "Jane",
+            "content": "Good One"
+          },
+          {
+            "username": "Bob",
+            "content": "Loved It!"
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "username": "coreyschafer",
+        "title": "Sept LifeStyle",
+        "content": "Turning that vs warm rayed it should be the hour for their mid-day sleep.",
+        "category": "Lifestyle",
+        "date": 20140930,
+        "likes": 24,
+        "comments": [
+          {
+            "username": "Jane",
+            "content": "Good One"
+          },
+          {
+            "username": "Bob",
+            "content": "Loved It!"
+          }
+        ]
+      }
+    ],
+    "books": [
+      {
+        "id": 1,
+        "image_url": "https://img.etimg.com/thumb/msid-94359940,width-300,height-225,imgsize-70676,,resizemode-75/taste-the-t-hunder.jpg",
+        "book_name": "Harry Potter and the Philosopher's Stone",
+        "author": "J. K. Rowling",
+        "genre": "Science",
+        "edition": "2021",
+        "publisher": "Bloomsbury",
+        "cost": 150,
+        "borrowed": false
+      },
+      {
+        "id": 2,
+        "image_url": "https://img.thriftbooks.com/api/images/i/s/8230B7DF53F7E379338B83B16EBB232BDA300299.jpg",
+        "book_name": "Harry Potter and the Philosopher's Stone",
+        "author": "J. K. Rowling",
+        "genre": "Fiction",
+        "edition": "2021",
+        "publisher": "Bloomsbury",
+        "cost": 1500,
+        "borrowed": false
+      },
+      {
+        "id": 3,
+        "image_url": "https://img.thriftbooks.com/api/images/i/s/E955834AEA8D416FA653C8B98AE0731E46B8C977.jpg",
+        "book_name": "Harry Potter and the Philosopher's Stone",
+        "author": "J. K. Rowling",
+        "genre": "Science",
+        "edition": "2021",
+        "publisher": "Bloomsbury",
+        "cost": 400,
+        "borrowed": false
+      },
+      {
+        "id": 4,
+        "image_url": "https://img.thriftbooks.com/api/images/s/965be66545a2715533a71b9125d502e66d867428.jpg",
+        "book_name": "Harry Potter and the Philosopher's Stone",
+        "author": "J. K. Rowling",
+        "genre": "Fiction",
+        "edition": "2021",
+        "publisher": "Bloomsbury",
+        "cost": 700,
+        "borrowed": true
+      },
+      {
+        "id": 5,
+        "image_url": "https://img.thriftbooks.com/api/images/s/cc0d9ff33141d336c5119fc4698b103b311921d6.jpg",
+        "book_name": "Harry Potter and the Philosopher's Stone",
+        "author": "J. K. Rowling",
+        "genre": "History",
+        "edition": "2021",
+        "publisher": "Bloomsbury",
+        "cost": 129,
+        "borrowed": true
+      },
+      {
+        "id": 6,
+        "image_url": "https://m.media-amazon.com/images/I/51b3ESsYwXL._SL200_.jpg",
+        "book_name": "Harry Potter and the Philosopher's Stone",
+        "author": "J. K. Rowling",
+        "genre": "Tech",
+        "edition": "2021",
+        "publisher": "Bloomsbury",
+        "cost": 12,
+        "borrowed": false
+      },
+      {
+        "id": 7,
+        "image_url": "https://img.thriftbooks.com/api/images/s/0bd22ea6b27000893b59d5daeae8a64525e58fe2.jpg",
+        "book_name": "Harry Potter and the Philosopher's Stone",
+        "author": "J. K. Rowling",
+        "genre": "History",
+        "edition": "2021",
+        "publisher": "Bloomsbury",
+        "cost": 991,
+        "borrowed": false
+      },
+      {
+        "id": 8,
+        "image_url": "https://img.thriftbooks.com/api/images/i/s/15D911226CCC8CB7D1A8A106E4856D87509C27C5.jpg",
+        "book_name": "Harry Potter and the Philosopher's Stone",
+        "author": "J. K. Rowling",
+        "genre": "Business",
+        "edition": "2021",
+        "publisher": "Bloomsbury",
+        "cost": 7565,
+        "borrowed": true
+      }
+    ]
+  }
