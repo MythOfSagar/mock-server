@@ -111,25 +111,6 @@
             "content": "Loved It!"
           }
         ]
-      },
-      {
-        "id": 6,
-        "username": "nobita",
-        "title": "Be Present",
-        "content": "Turning that vs warm rayed it should be the hour for their mid-day sleep.",
-        "category": "Tech",
-        "date": 20140911,
-        "likes": 24,
-        "comments": [
-          {
-            "username": "Jane",
-            "content": "Good One"
-          },
-          {
-            "username": "Bob",
-            "content": "Loved It!"
-          }
-        ]
       }
     ],
     "books": [
