@@ -1,6 +1,6 @@
 {
   "cartProducts":[],
-  "orderedProducts":[],
+  "orderedProducts":[], 
   "users": [
     {
       "id": 1,
