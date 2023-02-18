@@ -1,4 +1,6 @@
 {
+  "cartProducts":[],
+  "orderedProducts":[],
   "users": [
     {
       "id": 1,
